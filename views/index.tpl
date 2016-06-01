@@ -127,7 +127,7 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
       <div class="fw">
         <div class="ext blue"></div>
         <div class="bc-wrapper pn">
-                      <a class="logo pull-left" href="http://www.radial.com/" title="CD">
+                      <a class="logo pull-left" href="/" title="CD">
               <img src="/static/img/logo.svg" alt="Radial" />
             </a>
           
@@ -139,7 +139,8 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
             <a href="#mainmenu" data-role="sidemenu-toggle" class="sidemenu-close"></a>
             <a href="/contact/contact-us" class="contact-us-slim">Contact Us</a>
                           <ul class="menu nav navbar-nav">
-                            <li class="first leaf"><a href="/about-us">关于我们</a></li>
+                            <li class="first leaf"><a href="/">首页</a></li>
+                            <li class="leaf" id="payment"><a href="/about-us">关于我们</a></li>
                             <li class="leaf" id="payment"><a href="/news">新闻中心</a></li>
                             <li class="leaf" id="payment"><a href="/products">产品中心</a></li>
                             <li class="leaf" id="payment"><a href="/service">服务中心</a></li>
