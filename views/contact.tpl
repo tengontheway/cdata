@@ -87,6 +87,8 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
 "animation"
 :1,"html": 0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"
 }}});</script>
+
+<link type="text/css" rel="stylesheet" href="static/css/contact/contact.css" media="all" />
 </head>
 
 
@@ -178,44 +180,65 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
   </div>
 </header>
 
-<!-- TODO:body -->
+<!-- Main content -->
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 
-<div class="segment">
-  <section id="overview">
-    <div class="field-collection-container clearfix"><div class="field field-name-field-overview-group field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-overview-group clearfix" about="http://www.radial.com/field-collection/field-overview-group/1207" typeof="">
-
-  <div class="container">
-     <div class="row">
-      <div class="col-xs-12">
-                <p><img class="img-responsive" src="static/img/about_data.jpg"></p>
-      </div>
-    </div>
-    
-        <div class="row">
-      <div class="col-xs-12">
-        <div class="field field-name-field-headline field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Add some magic to the purchase experience.</div></div></div>      </div>
-    </div>
-        
-        <!--<div class="row">
-      <div class="col-xs-12">
-        <p></p><div class="field field-name-field-left-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>To a customer, it all seems like magic, but behind the scenes, it’s Radial Omnichannel Technology. This modular, cloud-based suite of tools, services, and technology takes all of your orders, all of your inventory, all of your distribution centers, all of your stores, and all of your suppliers and turns them all into one seamlessly coordinated experience after the click. </p>
-<p>With the fastest time to market in the industry, you can confidently implement Radial Omnichannel Technology one module at a time or as a complete solution, in weeks. Now you can drive revenue and customer satisfaction while seamlessly coordinating your omnichannel operations—before your competition even finishes their planning.</p>
-</div></div></div><p></p>
-      </div>
-    </div>-->
-    
-    <div class="row">
-      <div class="col-xs-12">
-        <p></p><div class="field field-name-field-left-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>成都数据之星科技是一家专门从事互联网信息采集与分析的大数据公司 </p>
-<p>成都数据之星专注于大数据服务和应用，拥有完整的大数据应用解决方案。</p>
-<p>首先，在获得大数据获取方面，公司开发了具有自主知识产权的数据采集SaaS平台，解决大数据的来源问题；</p>
-<p>其次，在大数据存储方面，海量数据首先要能保存下来，才能有后续的处理，因此大数据的存储是大数据的必要条件，公司自主研发和构建了分布式大数据存储系统是我们的大数据应用的基础。</p>
-<p>第三，在大数据的管理方面，大数据的应用是对大体量繁杂的数据的处理和挖掘，没有一个完整的数据管理体系无法完成大数据的有效应用，公司开发了具有自主知识产权的元数据管理系统，为大数据的应用提供了技术保障；</p>
-<p>第四, 数据挖掘系统，大数据的应用需要大数据计算平台的支持才能实现，对公司来说是不可或缺的技术，公司已经建设了大数据应用平台为行业客户提供服务。</p>
-</div></div></div><p></p>
-      </div>
-    </div>
-        
+<div>
+			<div style="width: 1120px; margin-left: auto; margin-right: auto;">
+				
+				<div style="margin-left: auto; margin-right: auto; background: #FFF; border-radius: 11px; box-shadow: rgba(0,0,0,.27) 0 0 3px,#DCDCDC 0 0 0,#DDD 0 -1px 0; overflow: hidden; padding: 40px; width: 1000px;">
+					<div style="margin:0; padding:0;">
+					<img src="static/img/about_data.jpg" alt="数之星_联系我们">
+            	<!--
+				<h2 style="font-size: 22px; color: #333; width:400px;">[about:title]</h2>
+				<h5 style="font-size: 12px; margin: 15px 0 25px 0; font-family:方正品尚纤黑简体; color:#666;">[news:date]</h5>
+				-->
+						<div style="margin:0; padding-top:50px;">
+							 <form method="POST" name="myform" onsubmit="return metmessagesubmit(&quot;姓名不能为空&quot;,&quot;留言信息不能为空&quot;);" action="save.asp?action=add" target="_self">
+        <table class="message_table">
+          <tbody><tr>
+            <td class="text">标题</td>
+            <td class="input"><input name="FaqTitle" type="text" class="input-text">
+              <span class="info">*</span></td>
+          </tr>
+          <tr>
+            <td class="text">姓名</td>
+            <td class="input"><input name="Contact" type="text" class="input-text">
+              <span class="info">*</span></td>
+          </tr>
+          <tr>
+            <td class="text">电话</td>
+            <td class="input"><input name="ContactWay" type="text" class="input-text"></td>
+          </tr>
+          <tr>
+            <td class="text">留言内容</td>
+            <td class="input"><textarea name="Content" cols="50" rows="6" class="textarea-text"></textarea>
+              <span class="info">*</span></td>
+          </tr>
+		 <tr>
+            <td class="text">验证码</td>
+            <td class="input"><input name="code" type="text" class="input-text"><img src="/inc/checkcode.asp?catch=n"></td>
+          </tr>
+          <tr>
+            <td class="text"></td>
+            <td class="submint">
+              <input type="submit" name="Submit" value="提交留言" class="submit button orange"></td>
+          </tr>
+        </tbody></table>
+      </form>
+						</div>
+					</div>		
+				</div>	
+			</div>
+		</div>
     
 </body>
 </html>
