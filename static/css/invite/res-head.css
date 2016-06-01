@@ -1,0 +1,230 @@
+.header-nav .fa-bars {
+    display: none;
+}
+
+.res-qr {
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    padding-top: 35px;
+    text-align: center;
+    right: 30px;
+}
+.res-qr span {
+		display: none;
+		*display:block;
+		font-size: 16px;
+
+}
+.res-qr a {
+    color: #fff;
+}
+
+.res-qr a:hover {
+    color: #f90;
+}
+
+.res-qr > li {
+    text-align: center;
+    margin-left: 90px;
+    color: #fff;
+    font-size: 32px;
+    display: inline-block;
+    *zoom:1;
+    *display:inline;
+}
+
+.res-qr > li img {
+    margin-bottom: 10px;
+}
+
+[id^="cnzz_stat_icon_"] {
+    display: none;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 1199px) {
+    * {
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        outline: none;
+    }
+
+    body {
+        width: auto;
+        min-width: 0;
+        margin-top: 75px;
+    }
+
+    footer {
+        padding-bottom: 20px;
+    }
+
+    footer .center_w {
+        width: auto;
+    }
+
+    #footer {
+        padding: 0;
+        overflow: hidden;
+        height: auto;
+    }
+
+    #footer .dot {
+        display: none;
+    }
+
+    footer > .center_w > h2 {
+        font-size: 22px;
+        margin-top: 0;
+        padding-top: 15px;
+    }
+
+    footer > .center_w > p {
+        padding-top: 15px;
+        font-size: 12px;
+    }
+
+    #footer > li {
+        width: 20%;
+        margin: 0;
+        text-align: center;
+    }
+
+    #footer > li > a {
+        width: auto;
+        height: auto;
+        padding: 10px;
+        font-size: 12px;
+        display: inline;
+    }
+    #footer > li > a:first-child {
+        text-indent: -2rem;
+    }
+    #yihang {
+        text-align: center;
+    }
+
+    .res-qr {
+        position: static;
+        display: block;
+        overflow: hidden;
+        padding-top: 42px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .res-qr > li {
+        float: left;
+        width: 50%;
+        text-align: center;
+        color: #ffffff;
+        font-size: 32px;
+        display: inline-block;
+        margin-left: 0;
+    }
+
+    .res-qr > li img {
+        width: 100px;
+    }
+
+    .btt {
+        display: none !important;
+    }
+
+    .header-nav {
+        height: auto;
+        padding: 0;
+        min-width: 0;
+        box-shadow: none;
+    }
+
+    .header-nav .n_wrap {
+        width: 100%;
+        margin: 0;
+    }
+
+    .header-nav .n_wrap .logo {
+        padding-top: 0px;
+        margin-left: -33px;
+        transform: scale(0.78);
+        -webkit-transform: scale(0.78);
+        -moz-transform: scale(0.78);
+    }
+
+    .header-nav .n_wrap > li:nth-child(1) {
+        display: none;
+    }
+
+    .header-nav .n_wrap > li:nth-child(2) {
+        padding: 0 20px;
+    }
+
+    .header-nav .fa-bars {
+        display: inline-block;
+        position: absolute;
+        color: #808080;
+        font-size: 32px;
+        top: 18px;
+        right: 20px;
+    }
+
+    .header-nav .n_list_2 {
+        display: none;
+        margin: 0;
+        position: absolute;
+        top: 75px;
+        left: 0px;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        background: #fff;
+        padding: 0 20px;
+        box-shadow: 0 1px 3px 1px #f6f6f6;
+    }
+
+    .header-nav .n_list_2 > li {
+        float: none;
+        height: 48px;
+        line-height: 48px;
+        margin: 0;
+        font-size: 20px;
+        color: #4d4d4d;
+        text-indent: 30px;
+        margin-top: 10px;
+    }
+
+    .header-nav .n_list_2 > li:nth-last-child(1) {
+        margin-bottom: 10px;
+    }
+
+    .header-nav .n_list_2 > li a {
+        color: inherit;
+    }
+
+    .header-nav .n_list_2 > li.active {
+        background-color: #f6f6f6;
+        border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        color: #ff9900;
+    }
+    footer .hehe {
+        display: none;
+        margin: 16px auto 0;
+        text-align: center;
+    }
+    footer .hehe > li {
+        float: none;
+        display: inline-block;
+    }
+    footer .hehe > li > a {
+        font-size: 12px;
+    }
+
+    .icon-new{
+        display: none;
+    }
+}

@@ -1,0 +1,536 @@
+@charset "utf-8";
+
+#map {
+	width: 1190px;
+	height: 550px;
+	margin-bottom: 60px
+}
+
+.center_w {
+	position: relative;
+	width: 1190px;
+	margin: 0 auto
+}
+
+.banner {
+	height: 525px;
+	padding-top: 70px;
+	padding-bottom: 55px;
+	background: url(../images/05.jpg) no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover
+}
+
+.banner h1 {
+	font-size: 36px;
+	padding-bottom: 15px;
+	color: #9EFFE5
+}
+
+.banner p {
+	width: 720px;
+	font-size: 16px;
+	line-height: 32px;
+	margin-top: 12px;
+	color: #fff;
+	text-align: justify
+}
+
+.head {
+	font-size: 0px;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center
+}
+
+.head > li {
+	width: 396px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 20px;
+	background: #f2f2f2;
+	color: #777;
+	cursor: pointer;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	border-top: 4px solid transparent
+}
+
+.head > li:hover {
+	border-top: 4px #78BBC0 solid;
+	background: #fff
+}
+
+.head > .act {
+	border-top: 4px #58BBC0 solid;
+	background: #fff
+}
+
+.intro {
+	padding-top: 1px;
+	background: url(../images/peitu.png) no-repeat 716px 30px
+}
+
+.intro > img {
+	display: block;
+	width: 1190px;
+	border-bottom: 1px #ccc solid
+}
+
+.main p {
+	padding-top: 1px;
+	font-size: 15px;
+	line-height: 23px;
+	color: #808080
+}
+
+.main .sub-title {
+	font-size: 16px;
+	color: #58BBC0;
+	padding-bottom: 6px
+}
+
+.main h4 {
+	margin-top: 40px;
+	font-weight: 100;
+	font-size: 30px;
+	line-height: 48px;
+	color: #58BBC0
+}
+
+.main .h4_2 {
+	margin-top: 80px
+}
+
+.main .h4_3 {
+	margin-top: 60px;
+	line-height: 100px;
+	background: url(../images/h_line.png) no-repeat 202px 41px
+}
+
+.join h4,.join p {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin-bottom: 30px
+}
+
+.join p {
+	margin-left: 10px
+}
+
+.join h4 {
+	font-weight: 100;
+	font-size: 30px;
+	line-height: 48px
+}
+
+.join > ul > .vocation {
+	width: 100%;
+	height: 70px;
+	padding-left: 9px;
+	line-height: 70px;
+	font-size: 16px;
+	color: #808080;
+	background: #fff url(../../img/btn_invite.png) no-repeat right -70px;
+	cursor: pointer;
+	box-sizing: border-box
+}
+
+.join > ul > .dark {
+	background: #f2f2f2 url(../../img/btn_invite.png) no-repeat right -70px
+}
+
+.join > ul > .voc_h {
+	background: #4d4d4d;
+	padding-left: 9px;
+	color: #fff;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px
+}
+
+.join > ul > li > span {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 32.7%;
+	*width: 32%;
+	padding: 0 1px 0 5px;
+	font-weight: 100;
+	box-sizing: border-box
+}
+
+.txag_l {
+	text-align: left
+}
+
+.txag_r {
+	text-align: right
+}
+
+.txag_c {
+	text-align: center
+}
+
+.join > ul > .detail {
+	display: none;
+	padding: 20px 10px 0 15px;
+	background: #d5d5d5;
+	color: #808080;
+	cursor: default
+}
+
+.detail > p,.detail > h5 {
+	display: block;
+	margin: 0;
+	color: #808080;
+	line-height: 28px;
+	font-weight: 100;
+	font-size: 16px
+}
+
+.detail > h5 {
+	padding-top: 10px
+}
+
+.detail > .bt {
+	padding-bottom: 10px;
+	border-bottom: 1px #ccc solid
+}
+
+.detail > .td {
+	line-height: 100px
+}
+
+.address {
+	padding: 90px 0 90px 600px;
+	background: url(../images/map.png) no-repeat left center
+}
+
+.address > p {
+	font-size: 18px;
+	color: #707070;
+	padding: 10px 0 40px
+}
+
+.address > p > em {
+	font-style: normal;
+	color: rgb(88,178,192)
+}
+
+.contact > h4 {
+	width: 100%;
+	padding-top: 20px;
+	background: url(../images/h_line.png) no-repeat right 35px
+}
+
+.contact > .way {
+	width: 100%;
+	background: rgb(88,178,192)
+}
+
+.way {
+	margin: 30px 0 80px 0;
+	overflow: hidden
+}
+
+.contact > .way > h5 {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 390px;
+	height: 88px
+}
+
+.contact > .way > h5 > p,.contact > .way > h5 > a {
+	margin-top: 25px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 100
+}
+
+.contact > .way > h5 > p {
+	font-size: 18px;
+	padding-bottom: 5px
+}
+
+.contact > .way > .contact2 {
+	background: rgb(88,144,193)
+}
+
+.cte {
+	display: none
+}
+
+.db {
+	display: block
+}
+
+.partners {
+	width: 100%;
+	margin-left: 30px
+}
+
+.x {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+	width: 24.6%;
+	height: 70px;
+	margin: 15px 0;
+	text-indent: -9999px
+}
+
+.x1 {
+	background: url(../images/partners/1.png) no-repeat -40px center
+}
+
+.x2 {
+	background: url(../images/partners/2.png) no-repeat -35px center
+}
+
+.x3 {
+	background: url(../images/partners/3.png) no-repeat -16px center
+}
+
+.x4 {
+	background: url(../images/partners/4.png) no-repeat -15px center
+}
+
+.x5 {
+	background: url(../images/partners/5.png) no-repeat -28px center
+}
+
+.x6 {
+	background: url(../images/partners/6.png) no-repeat -10px center
+}
+
+.x7 {
+	background: url(../images/partners/7.png) no-repeat 4px center
+}
+
+.x8 {
+	background: url(../images/partners/8.png) no-repeat -37px center
+}
+
+.x9 {
+	background: url(../images/partners/9.png) no-repeat -21px center
+}
+
+.x10 {
+	background: url(../images/partners/10.png) no-repeat -11px center
+}
+
+.x11 {
+	background: url(../images/partners/11.png) no-repeat -14px center
+}
+
+.x12 {
+	background: url(../images/partners/12.png) no-repeat -43px center
+}
+
+.x13 {
+	background: url(../images/partners/13.png) no-repeat -55px center
+}
+
+.x14 {
+	background: url(../images/partners/14.png) no-repeat -49px center
+}
+
+.x15 {
+	background: url(../images/partners/15.png) no-repeat -44px center
+}
+
+.x16 {
+	background: url(../images/partners/16.png) no-repeat -38px center
+}
+
+.x17 {
+	background: url(../images/partners/17.png) no-repeat -38px center
+}
+
+.x18 {
+	background: url(../images/partners/18.png) no-repeat -7px center
+}
+
+.x19 {
+	background: url(../images/partners/19.png) no-repeat -44px center
+}
+
+.x20 {
+	background: url(../images/partners/20.png) no-repeat -48px center
+}
+
+.x21 {
+	background: url(../images/partners/21.png) no-repeat -4px center
+}
+
+.x22 {
+	background: url(../images/partners/22.png) no-repeat -11px center
+}
+
+.x23 {
+	background: url(../images/partners/23.png) no-repeat -9px center
+}
+
+.x24 {
+	background: url(../images/partners/24.png) no-repeat -26px center
+}
+
+.x25 {
+	background: url(../images/partners/25.png) no-repeat -18px -2px
+}
+
+.x26 {
+	background: url(../images/partners/26.png) no-repeat 0 center
+}
+
+.x27 {
+	background: url(../images/partners/27.png) no-repeat -18px -3px
+}
+
+.x28 {
+	background: url(../images/partners/28.png) no-repeat -26px center
+}
+
+.x29 {
+	background: url(../images/partners/29.jpg) no-repeat 6px center
+}
+
+.x30 {
+	background: url(../images/partners/30.png) no-repeat 6px center
+}
+
+.x31 {
+	background: url(../images/partners/31.png) no-repeat 6px center
+}
+
+.x32 {
+	background: url(../images/partners/32.png) no-repeat 6px center
+}
+
+@media only screen
+and (min-device-width:320px)
+and (max-device-width:1199px) {
+	.center_w {
+		width: auto
+	}
+
+
+	.head > li {
+		width: 33.3333333333%;
+		font-size: 18px;
+		line-height: 65px
+	}
+
+	.intro > img {
+		width: 100%;
+		border-bottom-color: transparent
+	}
+
+	.address {
+		padding: 10px 0 20px 0;
+		background: none
+	}
+
+	.address > p {
+		padding: 0 11px 5px;
+		font-size: 16px
+	}
+
+	.main h4 {
+		font-size: 22px;
+		margin-top: 20px
+	}
+
+	.main .h4_2 {
+		margin-top: 40px
+	}
+
+	.main .h4_3 {
+		margin-top: 40px;
+		line-height: 1em;
+		background-position: 135px -2px
+	}
+
+	.main p {
+		font-size: 14px
+	}
+
+	.cte.intro.db {
+		padding: 10px
+	}
+
+	.contact > h4,.join h4 {
+		background-position: 135px 12px;
+		padding: 0px 10px;
+		margin-bottom: 10px
+	}
+
+	.contact > h4 {
+		margin-top: 50px;
+		line-height: 1em;
+		background: none
+	}
+
+	.contact > .way > h5 {
+		display: block;
+		width: auto;
+		height: auto;
+		padding: 20px 0
+	}
+
+	.contact > .way > h5 > p,.contact > .way > h5 > a {
+		margin-top: 0px;
+		font-weight: normal;
+		letter-spacing: 1px
+	}
+
+	.join > ul > li {
+		padding-left: 11px!important
+	}
+
+	.join > ul > li > span {
+		font-weight: normal;
+		width: 37.5%;
+		font-size: 12px;
+		padding: 0;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap
+	}
+
+	.join p {
+		margin: 0;
+		padding-right: 10px
+	}
+
+	.detail > p,.detail > h5 {
+		font-size: 12px;
+		font-weight: normal
+	}
+
+	.join > ul > .detail {
+		padding-left: 15px!important
+	}
+
+	.detail > .td {
+		line-height: 1.5;
+		padding: 36px 0
+	}
+
+	.partners {
+		width: auto;
+		margin: 0
+	}
+
+	.x {
+		width: 23.5%;
+		height: 30px;
+		background-size: 100%;
+		background-position: center
+	}
+}
