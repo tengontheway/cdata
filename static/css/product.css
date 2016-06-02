@@ -1,0 +1,85 @@
+@charset "utf-8";
+body {
+    font-family: 'microsoft yahei', \51ac\9752\9ed1\4f53\7b80\4f53\4e2d\6587, 'helvetica neue', tahoma, 'hiragino sans gb', stheiti, 'wenquanyi micro hei', \5FAE\8F6F\96C5\9ED1, \5B8B\4F53, sans-serif;
+    background: #fff;
+    min-width: 1250px;
+    font-size: 16px;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+.center_w {
+     position: relative; 
+     width: 1190px; 
+    height: 100%;
+     margin: 0 auto; 
+}
+
+.list {
+    width: 100%;
+    height: 550px;
+}
+
+
+.list > .center_w {
+    padding-top: 170px;
+    min-height: 350px;
+}
+
+.gray {
+    background: #f2f2f2;
+}
+
+.text-right > .center_w > p,
+.text-right > .center_w > h3,
+.text-right > .center_w > small {
+    display: block;
+    margin-left: 920px;
+}
+
+.list p {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.14;
+    color: #58bbc0;
+}
+
+.list h3 {
+    padding: 10px 0;
+    font-size: 36px;
+    font-weight: 100;
+    color: #616161;
+}
+
+.list small {
+    font-size: 16px;
+    color: #999;
+}
+
+.b-1 > .center_w {
+    background: url(../img/pro-1.png) no-repeat right 30px;
+}
+
+.b-2 > .center_w {
+    background: url(../img/pro-2.png) no-repeat left 30px;
+}
+
+.b-3 > .center_w {
+    background: url(../img/pro-3.png) no-repeat right 30px;
+}
+
+.b-4 > .center_w {
+    background: url(../img/pro-4.png) no-repeat left 30px;
+}
+
+.b-5 > .center_w {
+    background: url(../img/pro-5.png) no-repeat right 30px;
+}
+
+::selection {
+    background: rgb(255, 153, 0);
+    color: #fff;
+}

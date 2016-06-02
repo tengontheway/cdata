@@ -54,6 +54,7 @@
 <!-- footer css -->
 <link type="text/css" rel="stylesheet" href="static/css/footer/footer-distributed-with-address-and-phones.css" media="all" />
 <link type="text/css" rel="stylesheet" href="static/css/font-awesome.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="static/css/product.css" media="all" />
 
   <!-- HTML5 element support for IE6-8 -->
   <!--[if lt IE 9]>
@@ -183,43 +184,50 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
   </div>
 </header>
 
-<!-- TODO:body -->
+<!-- Product list -->
+<div class="list gray b-1">
+    <div class="center_w">
+        <p>01</p>
+        <h3>配置风控模型</h3>
+        <small>依场景所需，添加相应的策略模板<br>简单，快速处理平台风险</small>
+    </div>
+</div>
 
-<div class="segment">
-  <section id="overview">
-    <div class="field-collection-container clearfix"><div class="field field-name-field-overview-group field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-overview-group clearfix" about="http://www.radial.com/field-collection/field-overview-group/1207" typeof="">
+<div class="list text-right b-2">
+    <div class="center_w">
+        <p>02</p>
 
-  <div class="container">
-     <div class="row">
-      <div class="col-xs-12">
-                <p><img class="img-responsive" src="static/img/about_data.jpg"></p>
-      </div>
+        <h3>追溯历史详情</h3>
+        <small>查询账户命中情况，精确定位原因</small>
     </div>
-    
-        <div class="row">
-      <div class="col-xs-12">
-        <div class="field field-name-field-headline field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Add some magic to the purchase experience.</div></div></div>      </div>
+</div>
+
+<div class="list gray b-3">
+    <div class="center_w">
+        <p>03</p>
+
+        <h3>观测风险趋势</h3>
+        <small>查询平台的安全情况、规则命中效率，<br>根据风险分布，人工优化规则属性</small>
     </div>
-        
-        <!--<div class="row">
-      <div class="col-xs-12">
-        <p></p><div class="field field-name-field-left-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>To a customer, it all seems like magic, but behind the scenes, it’s Radial Omnichannel Technology. This modular, cloud-based suite of tools, services, and technology takes all of your orders, all of your inventory, all of your distribution centers, all of your stores, and all of your suppliers and turns them all into one seamlessly coordinated experience after the click. </p>
-<p>With the fastest time to market in the industry, you can confidently implement Radial Omnichannel Technology one module at a time or as a complete solution, in weeks. Now you can drive revenue and customer satisfaction while seamlessly coordinating your omnichannel operations—before your competition even finishes their planning.</p>
-</div></div></div><p></p>
-      </div>
-    </div>-->
-    
-    <div class="row">
-      <div class="col-xs-12">
-        <p></p><div class="field field-name-field-left-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>成都数据之星科技是一家专门从事互联网信息采集与分析的大数据公司 </p>
-<p>成都数据之星专注于大数据服务和应用，拥有完整的大数据应用解决方案。</p>
-<p>首先，在获得大数据获取方面，公司开发了具有自主知识产权的数据采集SaaS平台，解决大数据的来源问题；</p>
-<p>其次，在大数据存储方面，海量数据首先要能保存下来，才能有后续的处理，因此大数据的存储是大数据的必要条件，公司自主研发和构建了分布式大数据存储系统是我们的大数据应用的基础。</p>
-<p>第三，在大数据的管理方面，大数据的应用是对大体量繁杂的数据的处理和挖掘，没有一个完整的数据管理体系无法完成大数据的有效应用，公司开发了具有自主知识产权的元数据管理系统，为大数据的应用提供了技术保障；</p>
-<p>第四, 数据挖掘系统，大数据的应用需要大数据计算平台的支持才能实现，对公司来说是不可或缺的技术，公司已经建设了大数据应用平台为行业客户提供服务。</p>
-</div></div></div><p></p>
-      </div>
+</div>
+
+<div class="list text-right b-4">
+    <div class="center_w">
+        <p>04</p>
+
+        <h3>审核可疑事件</h3>
+        <small>针对不确定事件，独立人工审核<br>确保不遗漏风险，保障决策完善性</small>
     </div>
+</div>
+
+<div class="list gray b-5">
+    <div class="center_w">
+        <p>05</p>
+
+        <h3>反馈标记</h3>
+        <small>调用证据反馈接口，标记恶意账户提高<br>风控模型准确率，更有效的避免欺诈重复发生</small>
+    </div>
+</div>
         
 
 <!-- footer -->
