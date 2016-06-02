@@ -106,18 +106,28 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
 <header id="navbar" role="banner" class="navbar container navbar-default">
   <div class="container">
     <div class="navbar-primary col-md-12">
-      <!--<div class="bc-wrapper sn">
-        <div class="pull-right sec-nav-wrap">
-          <div class="language-switcher-menu">
-            <ul class="menu nav"><li class="first leaf"><a href="http://uk.radial.com">English-UK</a></li>
-            <li class="leaf"><a href="http://de.radial.com">German</a></li>
-            <li class="last leaf"><a href="http://radial.com">English-US</a></li>
-            </ul>             
-            <i class="language-switcher-menu__icon fa fa-angle-down"></i>
-            <div class="language-switcher-menu__mask"></div>
-          </div>  
-        </div>
-      </div>-->
+      <div class="bc-wrapper sn">
+         <div class="pull-right sec-nav-wrap">
+           <div class="language-switcher-menu">
+             <!--<ul class="menu nav"><li class="first leaf"><a href="http://uk.radial.com">English-UK</a></li>
+             <li class="leaf"><a href="http://de.radial.com">German</a></li>
+             <li class="last leaf"><a href="http://radial.com">English-US</a></li>
+             </ul>             
+             <i class="language-switcher-menu__icon fa fa-angle-down"></i>
+             <div class="language-switcher-menu__mask"></div>-->
+           </div>          
+ 
+           <!--<div class="navbar-secondary">
+                                     <ul class="menu nav navbar-nav secondary">
+                                       <li class="first leaf"><a href="http://www.radial.com/about/company">Who We Are</a></li>
+           <li class="leaf"><a href="http://www.radial.com/partners">Partners</a></li>
+           <li class="leaf"><a href="http://www.radial.com/clients">Clients</a></li>
+           <li class="leaf"><a href="http://www.radial.com/about/careers">Careers</a></li>
+           <li class="leaf"><a href="http://www.radial.com/insights">Insights</a></li>
+           <li class="last leaf"><a href="http://www.radial.com/search">Search</a></li>
+           </ul>                      </div>-->
+         </div>
+       </div>
       <div class="fw">
         <div class="ext blue"></div>
         <div class="bc-wrapper pn">
