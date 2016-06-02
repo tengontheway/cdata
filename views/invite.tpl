@@ -198,6 +198,14 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
 
 </header>
 
+<!--千里马图片-->
+<p><br></p>
+<p><br></p>
+<div style="text-align:center;"><img src="static/img/invite.jpg" style="display:initial;"></div>
+<p><br></p>
+<p><br></p>
+
+
 <!-- TODO:body -->
 <section class="main">
     <div class="center_w">
