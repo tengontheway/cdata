@@ -51,6 +51,15 @@ func (c *ServiceController) Get() {
 	c.TplName = "service.tpl"
 }
 
+// 技术
+type TechnologyController struct {
+	beego.Controller
+}
+
+func (c *TechnologyController) Get() {
+	c.TplName = "technology.tpl"
+}
+
 // 招贤纳士
 type InviteController struct {
 	beego.Controller

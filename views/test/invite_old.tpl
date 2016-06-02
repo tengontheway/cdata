@@ -140,7 +140,7 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
       <div class="fw">
         <div class="ext blue"></div>
         <div class="bc-wrapper pn">
-                      <a class="logo pull-left" href="http://www.radial.com/" title="CD">
+                      <a class="logo pull-left" href="/" title="CD">
               <img src="/static/img/logo.svg" alt="Radial" />
             </a>
           
@@ -155,7 +155,8 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
                             <li class="first leaf"><a href="/about-us">关于我们</a></li>
                             <li class="leaf" id="payment"><a href="/news">新闻中心</a></li>
                             <li class="leaf" id="payment"><a href="/products">产品中心</a></li>
-                            <li class="leaf" id="payment"><a href="/service">服务中心</a></li>
+                            <!--<li class="leaf" id="payment"><a href="/service">服务中心</a></li>-->
+                            <li class="leaf" id="payment"><a href="/technology">数据中心</a></li>
                             <li class="leaf" id="payment"><a href="/invite">招贤纳士</a></li>
                             <li class="last leaf" id="customer-care"><a href="/contact">联系我们</a></li>
                           </ul>                        

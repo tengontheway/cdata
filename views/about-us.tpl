@@ -106,7 +106,7 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
 <header id="navbar" role="banner" class="navbar container navbar-default">
   <div class="container">
     <div class="navbar-primary col-md-12">
-      <div class="bc-wrapper sn">
+      <!--<div class="bc-wrapper sn">
         <div class="pull-right sec-nav-wrap">
           <div class="language-switcher-menu">
             <ul class="menu nav"><li class="first leaf"><a href="http://uk.radial.com">English-UK</a></li>
@@ -115,19 +115,9 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
             </ul>             
             <i class="language-switcher-menu__icon fa fa-angle-down"></i>
             <div class="language-switcher-menu__mask"></div>
-          </div>          
-
-          <!--<div class="navbar-secondary">
-                                    <ul class="menu nav navbar-nav secondary">
-                                      <li class="first leaf"><a href="http://www.radial.com/about/company">Who We Are</a></li>
-          <li class="leaf"><a href="http://www.radial.com/partners">Partners</a></li>
-          <li class="leaf"><a href="http://www.radial.com/clients">Clients</a></li>
-          <li class="leaf"><a href="http://www.radial.com/about/careers">Careers</a></li>
-          <li class="leaf"><a href="http://www.radial.com/insights">Insights</a></li>
-          <li class="last leaf"><a href="http://www.radial.com/search">Search</a></li>
-          </ul>                      </div>-->
+          </div>  
         </div>
-      </div>
+      </div>-->
       <div class="fw">
         <div class="ext blue"></div>
         <div class="bc-wrapper pn">
@@ -147,7 +137,8 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
                             <li class="leaf" id="payment"><a href="/about-us">关于我们</a></li>
                             <li class="leaf" id="payment"><a href="/news">新闻中心</a></li>
                             <li class="leaf" id="payment"><a href="/products">产品中心</a></li>
-                            <li class="leaf" id="payment"><a href="/service">服务中心</a></li>
+                            <!--<li class="leaf" id="payment"><a href="/service">服务中心</a></li>-->
+                            <li class="leaf" id="payment"><a href="/technology">数据中心</a></li>
                             <li class="leaf" id="payment"><a href="/invite">招贤纳士</a></li>
                             <li class="last leaf" id="customer-care"><a href="/contact">联系我们</a></li>
                           </ul>                        
