@@ -50,6 +50,11 @@
 <link type="text/css" rel="stylesheet" href="static/css/css_PIpMNwPjmIoOZhjjGJx3Tv9cbtMfin9MaVhim9L50K4.css" media="all" />
 <link type="text/css" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" media="all" />
 <link type="text/css" rel="stylesheet" href="static/css/css_zKeVzj5Ue4UwfvN8EO70-3puz_2dIIKwc5oQyYMkLWk.css" media="all" />
+
+<!-- footer css -->
+<link type="text/css" rel="stylesheet" href="static/css/footer/footer-distributed-with-address-and-phones.css" media="all" />
+<link type="text/css" rel="stylesheet" href="static/css/font-awesome.min.css" media="all" />
+
   <!-- HTML5 element support for IE6-8 -->
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>

@@ -1,0 +1,3 @@
+@charset "utf-8";
+input.input-text,input.input-file,input.code,textarea { padding: 4px; font-size: 15px; outline: none; text-shadow: 0px 1px 0px #fff; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; border: 1px solid #ccc; -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; -o-transition: .3s ease-in-out; background:#fff url(../images/dt-10.gif) repeat-x left top; }
+input.input-text:focus,input.input-file:focus,input.code:focus,textarea:focus { border: 1px solid #fafafa; -webkit-box-shadow: 0px 0px 6px #007eff; -moz-box-shadow: 0px 0px 5px #007eff; box-shadow: 0px 0px 5px #007eff;}
