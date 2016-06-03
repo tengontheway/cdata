@@ -144,8 +144,8 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
             <a href="/contact/contact-us" class="contact-us-slim">Contact Us</a>
                           <ul class="menu nav navbar-nav">
                             <li class="first leaf"><a href="/">首页</a></li>
-                            <li class="leaf" id="payment"><a href="/about-us">关于我们</a></li>
-                            <li class="leaf" id="payment"><a href="/news">新闻中心</a></li>
+                            <li class="leaf" id="payment"><a href="/about-us">关于公司</a></li>
+
                             <li class="leaf" id="payment"><a href="/products">产品中心</a></li>
                             <!--<li class="leaf" id="payment"><a href="/service">服务中心</a></li>-->
                             <li class="leaf" id="payment"><a href="/technology">数据中心</a></li>
@@ -188,7 +188,11 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
 
 <div class="segment">
   <section id="overview">
-    <div class="field-collection-container clearfix"><div class="field field-name-field-overview-group field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-overview-group clearfix" about="http://www.radial.com/field-collection/field-overview-group/1207" typeof="">
+    <div class="field-collection-container clearfix">
+      <div class="field field-name-field-overview-group field-type-field-collection field-label-hidden">
+        <div class="field-items"><div class="field-item even">
+          <div class="field-collection-view view-mode-full field-collection-view-final">
+            <div class="entity entity-field-collection-item field-collection-item-field-overview-group clearfix"  typeof="">
 
   <div class="container">
      <div class="row">
@@ -196,19 +200,7 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
                 <p><img class="img-responsive" src="static/img/about_data.jpg"></p>
       </div>
     </div>
-    
-        <div class="row">
-      <div class="col-xs-12">
-        <div class="field field-name-field-headline field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Add some magic to the purchase experience.</div></div></div>      </div>
-    </div>
         
-        <!--<div class="row">
-      <div class="col-xs-12">
-        <p></p><div class="field field-name-field-left-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>To a customer, it all seems like magic, but behind the scenes, it’s Radial Omnichannel Technology. This modular, cloud-based suite of tools, services, and technology takes all of your orders, all of your inventory, all of your distribution centers, all of your stores, and all of your suppliers and turns them all into one seamlessly coordinated experience after the click. </p>
-<p>With the fastest time to market in the industry, you can confidently implement Radial Omnichannel Technology one module at a time or as a complete solution, in weeks. Now you can drive revenue and customer satisfaction while seamlessly coordinating your omnichannel operations—before your competition even finishes their planning.</p>
-</div></div></div><p></p>
-      </div>
-    </div>-->
     
     <div class="row">
       <div class="col-xs-12">
@@ -221,6 +213,17 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
 </div></div></div><p></p>
       </div>
     </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    </div>
+
+    
         
     
     <!-- footer -->
@@ -238,7 +241,7 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
 					·
 					<a href="#">产品中心</a>
 					·
-					<a href="#">关于我们</a>
+					<a href="#">关于公司</a>
 					·
 					<a href="#">招贤纳士</a>
 					·
@@ -270,7 +273,7 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
 			<div class="footer-right">
 
 				<p class="footer-company-about">
-					<span>关于我们</span>
+					<span>关于公司</span>
 					数之星致力于有效地帮助创业者与投资人无缝对接，陪伴新锐变大咖！投资牛人持续加入，纵观创投大数据！打造1+1＞2的强势创投服务平台！数之星——离资本最近的创业服务平台！
 				</p>
 

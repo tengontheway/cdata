@@ -158,8 +158,7 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
             <a href="/contact/contact-us" class="contact-us-slim">Contact Us</a>
                           <ul class="menu nav navbar-nav">
                             <li class="first leaf"><a href="/">首页</a></li>
-                            <li class="leaf" id="payment"><a href="/about-us">关于我们</a></li>
-                            <li class="leaf" id="payment"><a href="/news">新闻中心</a></li>
+                            <li class="leaf" id="payment"><a href="/about-us">关于公司</a></li>
                             <li class="leaf" id="payment"><a href="/products">产品中心</a></li>
                             <!--<li class="leaf" id="payment"><a href="/service">服务中心</a></li>-->
                             <li class="leaf" id="payment"><a href="/technology">数据中心</a></li>
@@ -975,7 +974,7 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
 					·
 					<a href="#">产品中心</a>
 					·
-					<a href="#">关于我们</a>
+					<a href="#">关于公司</a>
 					·
 					<a href="#">招贤纳士</a>
 					·
@@ -1007,7 +1006,7 @@ ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
 			<div class="footer-right">
 
 				<p class="footer-company-about">
-					<span>关于我们</span>
+					<span>关于公司</span>
 					数之星致力于有效地帮助创业者与投资人无缝对接，陪伴新锐变大咖！投资牛人持续加入，纵观创投大数据！打造1+1＞2的强势创投服务平台！数之星——离资本最近的创业服务平台！
 				</p>
 
