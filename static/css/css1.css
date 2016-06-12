@@ -1,0 +1,37 @@
+/**
+ * 首页CSS 
+ */
+.element-hidden {
+	display: none;
+}
+
+.element-invisible {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px,1px,1px,1px);
+	overflow: hidden;
+	height: 1px;
+}
+
+.element-invisible.element-focusable:active,.element-invisible.element-focusable:focus {
+	position: static !important;
+	clip: auto;
+	overflow: visible;
+	height: auto;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+*:first-child + html .clearfix {
+	min-height: 1%;
+}
