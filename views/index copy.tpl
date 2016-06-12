@@ -52,7 +52,7 @@
 <link type="text/css" rel="stylesheet" href="static/css/css_zKeVzj5Ue4UwfvN8EO70-3puz_2dIIKwc5oQyYMkLWk.css" media="all" />
 
 <!-- footer -->
-<link type="text/css" rel="stylesheet" href="static/css/footer/footer-distributed-with-address-and-phones.css" media="all" />
+<link type="text/css" rel="stylesheet" href="static/css/footer-distributed-with-address-and-phones.css" media="all" />
 <link type="text/css" rel="stylesheet" href="static/css/font-awesome.min.css" media="all" />
 
   <!-- HTML5 element support for IE6-8 -->

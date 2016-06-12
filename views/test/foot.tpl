@@ -1,5 +1,5 @@
 <!-- footer css -->
-<link type="text/css" rel="stylesheet" href="static/css/footer/footer-distributed-with-address-and-phones.css" media="all" />
+<link type="text/css" rel="stylesheet" href="static/css/footer-distributed-with-address-and-phones.css" media="all" />
 <link type="text/css" rel="stylesheet" href="static/css/font-awesome.min.css" media="all" />
 
 

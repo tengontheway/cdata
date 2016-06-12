@@ -36,7 +36,9 @@
   <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="static/css/css_site2.css" media="all" />
 
-  <link type="text/css" rel="stylesheet" href="static/css/footer/footer-distributed-with-address-and-phones.css" media="all" />
+  <!-- footer font -->
+  <link type="text/css" rel="stylesheet" href="static/css/footer-distributed-with-address-and-phones.css" media="all" />
+  <link type="text/css" rel="stylesheet" href="static/css/font-awesome.min.css" media="all" />
 
 </head>
 
