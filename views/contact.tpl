@@ -148,17 +148,8 @@
 
 
     <!-- Main content -->
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
 
-    <div>
+    <div class="well">
       <div style="width: 1120px; margin-left: auto; margin-right: auto;">
 
         <div style="margin-left: auto; margin-right: auto; background: #FFF; border-radius: 11px; box-shadow: rgba(0,0,0,.27) 0 0 3px,#DCDCDC 0 0 0,#DDD 0 -1px 0; overflow: hidden; padding: 40px; width: 1000px;">

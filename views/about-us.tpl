@@ -155,29 +155,31 @@
                 <div class="entity entity-field-collection-item field-collection-item-field-overview-group clearfix" typeof="">
 
                   <div class="container">
-                    <div class="row">
-                      <div class="col-xs-12">
-                        <p><img class="img-responsive" src="static/img/about_data.jpg"></p>
+                    <div class="well">
+                      <div class="row">
+                        <div class="col-xs-12">
+                          <p><img class="img-responsive" src="static/img/about_data.jpg"></p>
+                        </div>
                       </div>
-                    </div>
 
 
-                    <div class="row">
-                      <div class="col-xs-12">
-                        <p></p>
-                        <div class="field field-name-field-left-body field-type-text-long field-label-hidden">
-                          <div class="field-items">
-                            <div class="field-item even">
-                              <p>成都数据之星科技是一家专门从事互联网信息采集与分析的大数据公司 </p>
-                              <p>成都数据之星专注于大数据服务和应用，拥有完整的大数据应用解决方案。</p>
-                              <p>首先，在获得大数据获取方面，公司开发了具有自主知识产权的数据采集SaaS平台，解决大数据的来源问题；</p>
-                              <p>其次，在大数据存储方面，海量数据首先要能保存下来，才能有后续的处理，因此大数据的存储是大数据的必要条件，公司自主研发和构建了分布式大数据存储系统是我们的大数据应用的基础。</p>
-                              <p>第三，在大数据的管理方面，大数据的应用是对大体量繁杂的数据的处理和挖掘，没有一个完整的数据管理体系无法完成大数据的有效应用，公司开发了具有自主知识产权的元数据管理系统，为大数据的应用提供了技术保障；</p>
-                              <p>第四, 数据挖掘系统，大数据的应用需要大数据计算平台的支持才能实现，对公司来说是不可或缺的技术，公司已经建设了大数据应用平台为行业客户提供服务。</p>
+                      <div class="row">
+                        <div class="col-xs-12">
+                          <p></p>
+                          <div class="field field-name-field-left-body field-type-text-long field-label-hidden">
+                            <div class="field-items">
+                              <div class="field-item even">
+                                <p>成都数据之星科技是一家专门从事互联网信息采集与分析的大数据公司 </p>
+                                <p>成都数据之星专注于大数据服务和应用，拥有完整的大数据应用解决方案。</p>
+                                <p>首先，在获得大数据获取方面，公司开发了具有自主知识产权的数据采集SaaS平台，解决大数据的来源问题；</p>
+                                <p>其次，在大数据存储方面，海量数据首先要能保存下来，才能有后续的处理，因此大数据的存储是大数据的必要条件，公司自主研发和构建了分布式大数据存储系统是我们的大数据应用的基础。</p>
+                                <p>第三，在大数据的管理方面，大数据的应用是对大体量繁杂的数据的处理和挖掘，没有一个完整的数据管理体系无法完成大数据的有效应用，公司开发了具有自主知识产权的元数据管理系统，为大数据的应用提供了技术保障；</p>
+                                <p>第四, 数据挖掘系统，大数据的应用需要大数据计算平台的支持才能实现，对公司来说是不可或缺的技术，公司已经建设了大数据应用平台为行业客户提供服务。</p>
+                              </div>
                             </div>
                           </div>
+                          <p></p>
                         </div>
-                        <p></p>
                       </div>
                     </div>
                   </div>
