@@ -18,3 +18,15 @@ td.input input{ margin-right:8px;}
 td.input .info{ padding-left:15px; color:#f00000;}
 td.input img{ position:relative; bottom:1px; top:8px;}
 td.submint{ padding:10px;}
+
+
+.ccode
+{
+    font-family: Arial;
+    font-style: italic;
+    color: Red;
+    border: 0;
+    padding: 2px 3px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}

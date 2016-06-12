@@ -37,9 +37,10 @@
   <link type="text/css" rel="stylesheet" href="static/css/font-awesome.min.css" media="all" />
 
   <link type="text/css" rel="stylesheet" href="static/css/contact.css" media="all" />
+
 </head>
 
-<body class="html front not-logged-in no-sidebars page-node page-node- page-node-188 node-type-front-page i18n-en platform-windows browser-unknown browser-unknown- radial">
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-188 node-type-front-page i18n-en platform-windows browser-unknown browser-unknown- radial" onload="createCode()">
   <!--<div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a></div>-->
   <div id="node-banner" style="background-image: url(/static/img/placeholder1.png);" class="radial-banner">
@@ -160,8 +161,9 @@
 				<h5 style="font-size: 12px; margin: 15px 0 25px 0; font-family:方正品尚纤黑简体; color:#666;">[news:date]</h5>
 				-->
             <div style="margin:0; padding-top:50px;">
-              <form method="POST" name="myform" onsubmit="return metmessagesubmit(&quot;姓名不能为空&quot;,&quot;留言信息不能为空&quot;);" action="save.asp?action=add"
-                target="_self">
+              <!--<form method="POST" name="myform" onsubmit="return metmessagesubmit(&quot;姓名不能为空&quot;,&quot;留言信息不能为空&quot;);" action="save.asp?action=add"
+                target="_self">-->
+                <form>
                 <table class="message_table">
                   <tbody>
                     <tr>
@@ -185,12 +187,16 @@
                     </tr>
                     <tr>
                       <td class="text">验证码</td>
-                      <td class="input"><input name="code" type="text" class="input-text"><img src="/inc/checkcode.asp?catch=n"></td>
+                      <td class="input"><input id="code" name="code"  type="text" class="input-text">
+                      <input type="text" onclick="createCode()" readonly="readonly" id="CheckCode" class="ccode" /><br />
+                     </td>
+                      
                     </tr>
                     <tr>
                       <td class="text"></td>
                       <td class="submint">
-                        <input type="submit" name="Submit" value="提交留言" class="submit button orange"></td>
+                        <!--<input type="submit" name="Submit" value="提交留言" class="submit button orange"></td>-->
+                        <input type="submit" name="SubmitData" value="提交留言" onclick="submitData()" class="submit button orange"></td>
                     </tr>
                   </tbody>
                 </table>
@@ -280,6 +286,39 @@
     <script src="static/js/4Jw.js"></script>
 
     <script src="static/js/Mqk.js"></script>
-  </body>
 
+    <!-- 验证码 -->
+    <script language="javascript" type="text/javascript">
+      var code; //在全局 定义验证码
+      
+      // 创建验证码
+      function createCode() {
+        code = "";
+        var checkCode = document.getElementById("CheckCode");
+        function RndNum(n) {
+          var rnd = "";
+          for (var i = 0; i < n; i++)
+            rnd += Math.floor(Math.random() * 10);
+          return rnd;
+        }
+
+        code = RndNum(4);
+        if (checkCode) {
+          checkCode.value = code;
+        }
+      }
+
+      // 提交数据
+      function submitData() {
+        var inputCode = document.getElementById("code").value;
+
+        if (inputCode.length <= 0) {
+          alert("请输入验证码");
+        } else if (inputCode == code) {
+          alert("提交成功");
+        }
+      }
+
+    </script>
+  </body>
 </html>
