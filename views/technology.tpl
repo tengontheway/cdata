@@ -51,12 +51,12 @@
 
             <div class="navbar-secondary">
               <ul class="menu nav navbar-nav secondary">
-                <li class="first leaf">
-                  <a href="#">Who We Are</a></li>
+                <!--<li class="first leaf">
+                  <a href="#"></a></li>
                 <li class="leaf">
-                  <a href="#">Partners</a></li>
+                  <a href="#"></a></li>
                 <li class="last leaf">
-                  <a href="#">Search</a></li>
+                  <a href="#"></a></li>-->
               </ul>
             </div>
           </div>
