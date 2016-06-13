@@ -55,7 +55,7 @@
 <link type="text/css" rel="stylesheet" href="static/css/invite/reset.css" media="all" />
 
 <!-- footer css -->
-<link type="text/css" rel="stylesheet" href="static/css/footer/footer-distributed-with-address-and-phones.css" media="all" />
+<link type="text/css" rel="stylesheet" href="static/css/footer-distributed-with-address-and-phones.css" media="all" />
 <link type="text/css" rel="stylesheet" href="static/css/font-awesome.min.css" media="all" />
 
   <!-- HTML5 element support for IE6-8 -->
@@ -72,6 +72,18 @@
 "cookieDomain"
 :"auto"
 });
+
+    <!-- 招聘 begin -->
+    <link type="text/css" rel="stylesheet" href="static/css/invite/invite.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="static/css/invite/res-head.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="static/css/invite/invite_reset.css" media="all" />
+    <!--
+<script src="static/js/common.js"></script>
+<script src="static/js/html5.js"></script>
+<script src="static/js/page.js"></script>
+<script src="static/js/tip.js"></script>-->
+
+    <!-- 招聘 end -->
 
 <script src="static/js/common.js"></script>
 <script src="static/js/html5.js"></script>

@@ -1,3 +1,8 @@
+<!--
+  模板1:修正了主页上的css、js、logo、导航栏、侧边栏
+  模板1保留了注释的内容，并对导航栏相应的CSS做了修改
+  2016/6/12
+  -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
   xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#"
@@ -11,7 +16,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="shortcut icon" href="static/img/logo16.ico" type="image/vnd.microsoft.icon" />
+  <link rel="shortcut icon" href="static/img/logo16.ico" type="image/vnd.microsoft.icon"
+  />
   <meta name="description" content="See how our omnichannel technology, payments &amp; fraud, fulfillment &amp; freight, &amp; customer care solutions help you profitably exceed customer expectations."
   />
   <meta name="keywords" content="Omnichannel Technology, Payments, Fulfillment &amp; Freight, Customer Care" />
@@ -26,21 +32,18 @@
   <meta property="article:modified_time" content="2016-05-24T04:04:29-07:00" />
   <title>数之星 | 大数据</title>
   <!--<link type="text/css" rel="stylesheet" href="static/css/css1.css" media="all" />-->
-  <link rel="stylesheet" href="static/css/css_site1.css" media="all" />
+  <link rel="stylesheet" href="static/css/css_site1.css"  media="all" />
   <!--<link rel="stylesheet" href="http://www.radial.com/sites/default/files/css/css_PIpMNwPjmIoOZhjjGJx3Tv9cbtMfin9MaVhim9L50K4.css" media="all" />-->
   <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="static/css/css_site2.css" media="all" />
 
-  <!-- footer font -->
-  <link type="text/css" rel="stylesheet" href="static/css/footer-distributed-with-address-and-phones.css" media="all"
-  />
+    <!-- footer font -->
+  <link type="text/css" rel="stylesheet" href="static/css/footer-distributed-with-address-and-phones.css" media="all" />
   <link type="text/css" rel="stylesheet" href="static/css/font-awesome.min.css" media="all" />
-
-  <link type="text/css" rel="stylesheet" href="static/css/contact.css" media="all" />
 
 </head>
 
-<body class="html front not-logged-in no-sidebars page-node page-node- page-node-188 node-type-front-page i18n-en platform-windows browser-unknown browser-unknown- radial" onload="createCode()">
+<body class="html front not-logged-in no-sidebars page-node page-node- page-node-188 node-type-front-page i18n-en platform-windows browser-unknown browser-unknown- radial">
   <!--<div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a></div>-->
   <div id="node-banner" style="background-image: url(/static/img/placeholder1.png);" class="radial-banner">
@@ -148,177 +151,50 @@
 
 
 
-    <!-- Main content -->
-
-    <div class="well">
-      <div style="width: 1120px; margin-left: auto; margin-right: auto;">
-
-        <div style="margin-left: auto; margin-right: auto; background: #FFF; border-radius: 11px; box-shadow: rgba(0,0,0,.27) 0 0 3px,#DCDCDC 0 0 0,#DDD 0 -1px 0; overflow: hidden; padding: 40px; width: 1000px;">
-          <div style="margin:0; padding:0;">
-            <img src="static/img/about_data.jpg" alt="数之星_联系我们">
-            <!--
-				<h2 style="font-size: 22px; color: #333; width:400px;">[about:title]</h2>
-				<h5 style="font-size: 12px; margin: 15px 0 25px 0; font-family:方正品尚纤黑简体; color:#666;">[news:date]</h5>
-				-->
-            <div style="margin:0; padding-top:50px;">
-              <!--<form method="POST" name="myform" onsubmit="return metmessagesubmit(&quot;姓名不能为空&quot;,&quot;留言信息不能为空&quot;);" action="save.asp?action=add"
-                target="_self">-->
-                <form>
-                <table class="message_table">
-                  <tbody>
-                    <tr>
-                      <td class="text">标题</td>
-                      <td class="input"><input name="FaqTitle" type="text" class="input-text">
-                        <span class="info">*</span></td>
-                    </tr>
-                    <tr>
-                      <td class="text">姓名</td>
-                      <td class="input"><input name="Contact" type="text" class="input-text">
-                        <span class="info">*</span></td>
-                    </tr>
-                    <tr>
-                      <td class="text">电话</td>
-                      <td class="input"><input name="ContactWay" type="text" class="input-text"></td>
-                    </tr>
-                    <tr>
-                      <td class="text">留言内容</td>
-                      <td class="input"><textarea name="Content" cols="50" rows="6" class="textarea-text"></textarea>
-                        <span class="info">*</span></td>
-                    </tr>
-                    <tr>
-                      <td class="text">验证码</td>
-                      <td class="input"><input id="code" name="code"  type="text" class="input-text">
-                      <input type="text" onclick="createCode()" readonly="readonly" id="CheckCode" class="ccode" /><br />
-                     </td>
-                      
-                    </tr>
-                    <tr>
-                      <td class="text"></td>
-                      <td class="submint">
-                        <!--<input type="submit" name="Submit" value="提交留言" class="submit button orange"></td>-->
-                        <input type="submit" name="SubmitData" value="提交留言" onclick="submitData()" class="submit button orange"></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </form>
-            </div>
-          </div>
-        </div>
+  <!--<a id='overlaymobile' href='#mainmenu' data-role='sidemenu-toggle' class="sidemenu-close" style="display:none"></a>
       </div>
-    </div>
+      <script type="text/javascript">piAId = '139061';
+        piCId = '1379';
+
+        (function() {
+          function async_load() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.src = ('https:' == document.location.protocol ? 'https://pi': 'http://cdn') + '.pardot.com/pd.js';
+            var c = document.getElementsByTagName('script')[0];
+            c.parentNode.insertBefore(s, c);
+          }
+          if (window.attachEvent) {
+            window.attachEvent('onload', async_load);
+          } else {
+            window.addEventListener('load', async_load, false);
+          }
+        })();</script>
+      <script type="application/ld+json">{
+          "@context": "http://schema.org",
+          "@type": "Organization",
+          "url": "http://www.ebayenterprise.com",
+          "logo": "http://www.ebayenterprise.com/sites/all/themes/ebayenterprise/images/ee_logo_blue.svg"
+        }</script>-->
+
+  <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+  <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+  <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 
-    <!-- footer -->
-    <p></p>
-    <p></p>
-    <p></p>
-    <footer class="footer-distributed">
-
-      <div class="footer-left">
-        <p>
-          <!--<h3>数<span>之</span>星</h3>-->
-          <img src="/static/img/logo.svg" width=100px alt="数之星" />
-        </p>
-        <p class="footer-links">
-          <a href="#">首页</a> ·
-          <a href="#">新闻中心</a> ·
-          <a href="#">产品中心</a> ·
-          <a href="#">关于公司</a> ·
-          <a href="#">招贤纳士</a> ·
-          <a href="#">联系我们</a>
-        </p>
-
-        <p class="footer-company-name">成都数之星科技有限公司 版权所有 © 2015</p>
-      </div>
-
-      <div class="footer-center">
-
-        <div>
-          <i class="fa fa-map-marker"></i>
-          <p><span>四川成都</span> 天府软件园</p>
-        </div>
-
-        <div>
-          <i class="fa fa-phone"></i>
-          <p>15811026666</p>
-        </div>
-
-        <div>
-          <i class="fa fa-envelope"></i>
-          <p><a href="mailto:support@cisiondata.com">support@cisiondata.com</a></p>
-        </div>
-
-      </div>
-
-      <div class="footer-right">
-
-        <p class="footer-company-about">
-          <span>关于公司</span> 数之星致力于有效地帮助创业者与投资人无缝对接，陪伴新锐变大咖！投资牛人持续加入，纵观创投大数据！打造1+1＞2的强势创投服务平台！数之星——离资本最近的创业服务平台！
-        </p>
-
-        <div class="footer-icons">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-github"></i></a>
-        </div>
-
-      </div>
-
-    </footer>
-
-
-    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-
-    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-
-    <!-- HTML5 element support for IE6-8 -->
-    <!--[if lt IE 9]>
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
-    <script src="static/js/X_k.js"></script>
-    <!--<script src="http://www.radial.com/sites/default/files/js/js_FFtpyKTSM_KeYdWAMXMyAYnWS6zd6yKYhCJdxzr_VVk.js"></script>-->
+  <script src="static/js/X_k.js"></script>
+  <!--<script src="http://www.radial.com/sites/default/files/js/js_FFtpyKTSM_KeYdWAMXMyAYnWS6zd6yKYhCJdxzr_VVk.js"></script>-->
 
-    <!--<script src="http://www.radial.com/sites/default/files/js/js_ylxFC2mtYSypYcdilQIC6F5wJqUS9AQ2ug_mdo-8aA4.js"></script>-->
-    <script src="static/js/4Jw.js"></script>
+  <!--<script src="http://www.radial.com/sites/default/files/js/js_ylxFC2mtYSypYcdilQIC6F5wJqUS9AQ2ug_mdo-8aA4.js"></script>-->
+  <script src="static/js/4Jw.js"></script>
 
-    <script src="static/js/Mqk.js"></script>
+  <script src="static/js/Mqk.js"></script>
+</body>
 
-    <!-- 验证码 -->
-    <script language="javascript" type="text/javascript">
-      var code; //在全局 定义验证码
-      
-      // 创建验证码
-      function createCode() {
-        code = "";
-        var checkCode = document.getElementById("CheckCode");
-        function RndNum(n) {
-          var rnd = "";
-          for (var i = 0; i < n; i++)
-            rnd += Math.floor(Math.random() * 10);
-          return rnd;
-        }
-
-        code = RndNum(4);
-        if (checkCode) {
-          checkCode.value = code;
-        }
-      }
-
-      // 提交数据
-      function submitData() {
-        var inputCode = document.getElementById("code").value;
-
-        if (inputCode.length <= 0) {
-          alert("请输入验证码");
-        } else if (inputCode == code) {
-          alert("提交成功");
-        }
-      }
-
-    </script>
-  </body>
 </html>
